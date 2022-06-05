@@ -182,7 +182,8 @@ body.menu-expanded button {
     content: '';
     width: 100vw;
     min-height: calc(100vh - var(--nav-height));
-    background: url(./background.webp) no-repeat top;
+    max-height: 100vh;
+    background: url(./background.webp) no-repeat center;
     background-size: cover;
     display: block;
     position: absolute;
