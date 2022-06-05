@@ -197,7 +197,7 @@ body.menu-expanded button {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    gap: 11rem;
+    gap: 7rem;
 }
 
 #home .wrapper .intro{
@@ -267,7 +267,7 @@ body.menu-expanded button {
 
 #footer .logo img{
     width: 12rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 #footer ul{
@@ -277,7 +277,7 @@ body.menu-expanded button {
     list-style-type: disc;
     gap: 1rem;
 
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 #footer ul li:nth-child(1){
