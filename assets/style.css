@@ -264,7 +264,7 @@ body.menu-expanded button {
     list-style-type: disc;
     gap: 1rem;
 
-    margin-bottom: 7rem;
+    margin-bottom: 2rem;
 }
 
 #footer ul li:nth-child(1){
