@@ -1,10 +1,8 @@
 # Ubisoft+ Clone 
 
-A clone of Ubisoft+ main page, made with HTML and CSS. 
+A responsive clone of Ubisoft+ main page, made with HTML, CSS and JavaScript.
 
-P.S.: Mobile view is still not responsive.
-
-A complex project that made me improve positions and display in CSS!
+A complex project that made me improve positions and display in CSS, practice JavaScript and learn more about responsiveness.
 
 # Final Result 🔥 
 

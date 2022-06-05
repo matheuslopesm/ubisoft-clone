@@ -231,6 +231,12 @@ body.menu-expanded button {
     border-radius: 4rem;
 }
 
+#home .intro-buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 #home .log-button{
     background-color: var(--hover-color);
     color: var(--luminous-white);
@@ -308,4 +314,75 @@ body.menu-expanded button {
 #footer .copyright p{
     font-size: 1.2rem;
     line-height: 1.8;
+}
+
+/* ====== RESPONSIVO ======= */
+
+/* Small screens */
+@media(max-width: 375px){
+
+    .menu ul button{
+        left: 14rem;    
+    }  
+    
+    #home .wrapper .intro{
+        margin-top: 3rem;
+    }
+    
+    #home .wrapper{
+        gap: 2rem;
+    }
+
+    #footer{
+        padding: 1rem 0.75rem;
+        gap: 1rem;
+    }
+}
+
+/* Large screens */
+@media(min-width: 1024px){
+
+    .wrapper{
+        width: min(125rem, 100%);
+    }
+
+    #home .logo{
+        width: 37rem;
+    }
+
+    #home .wrapper{
+        gap: 11rem;
+    }
+
+    #home .wrapper .intro{
+        gap: 3rem;
+        margin-top: 3.5rem;
+    }
+    
+    section .intro h2{
+        font-size: 2.1rem;
+    }
+
+    section .intro p{
+        font-size: 1.8rem;
+        width: 70%;
+    }
+
+    #home .intro-buttons{
+        display: flex;
+        flex-direction: row;
+        gap: 2rem;
+    }   
+
+    #footer{
+        gap: 1rem;
+    }  
+
+    body.menu-expanded .menu {
+        width: 25vw;
+    }
+        
+    .menu ul button{
+        left: 22rem;    
+    }
 }
