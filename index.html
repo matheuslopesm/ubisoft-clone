@@ -6,30 +6,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/e36f96bb12.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../ubisoft-clone/css/style.css">
+    <link rel="stylesheet" href="./assets/style.css">
     <title>Ubisoft+</title>
 </head>
 <body>
 
-    <header>
-        <div class="logo-container">
-            <img src="../ubisoft-clone/assets/logo.svg" class="logo">
-        </div>
-        <nav>
-            <ul class="nav-links">
-                <li><a href="#" class="nav-link">Sobre o Ubisoft+</a></li>
-                <li><a href="#" class="nav-link">Loja</a></li>
-                <li><a href="#" class="nav-link">Novidades</a></li>
-                <li><a href="#" class="nav-link">Fórum</a></li>
-                <li><a href="#" class="nav-link">Suporte</a></li>
-            </ul>
-        </nav>
+    <nav id="navigation">
+        <div class="wrapper">
+            
+            <div class="menu">
+                <ul>
+                    <button
+                    aria-expanded="true"
+                    aria-label="Fechar menu"
+                    onclick="closeMenu()"
+                    class="close-menu">
+                    <svg
+                      width="40"
+                      height="40"
+                      viewBox="0 0 40 40"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M30 10L10 30M10 10L30 30"
+                        stroke="#FFFAF1"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    </button>
+                    <li><a onclick="closeMenu()" href="#" class="nav-link">Sobre o Ubisoft+</a></li>
+                    <li><a onclick="closeMenu()" href="#" class="nav-link">Loja</a></li>
+                    <li><a onclick="closeMenu()" href="#" class="nav-link">Novidades</a></li>
+                    <li><a onclick="closeMenu()" href="#" class="nav-link">Fórum</a></li>
+                    <li><a onclick="closeMenu()" href="#" class="nav-link">Suporte</a></li>
+                </ul>
+            </div>
 
-        <div class="profile">
-            <img src="../ubisoft-clone/assets/profile.png" alt="profile-picture">
-        </div>
-    </header>
+            <button 
+                aria-expanded="false"
+                aria-label="Abrir menu"
+                onclick="openMenu()"
+                class="open-menu">Menu
+            </button>
 
+            <div class="logo">
+                <img src="./assets/logo.svg">
+            </div>
+    
+            <div class="profile">
+                <img src="./assets/instagram-perfil.jpeg" alt="profile-picture">
+            </div>
+        </div>
+    </nav>
+<!-- 
     <main>
 
         <section class="showcase">
@@ -78,7 +110,10 @@
                 </div>
             </div>
         </section>
-    </main>
+    </main> -->
+
+    <!-- JS -->
+    <script src="./assets/main.js"></script>
     
 </body>
 </html>
